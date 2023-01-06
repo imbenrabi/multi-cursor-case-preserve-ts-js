@@ -1,6 +1,6 @@
 {
-    "name": "multi-cursor-case-preserve",
-    "displayName": "Multiple cursor case preserve",
+    "name": "multi-cursor-case-preserve-ts-js",
+    "displayName": "Multiple cursor case preserve for typescript and javascript",
     "description": "Preserves case when editing with multiple cursors",
     "icon": "images/logo.png",
     "bugs": {
@@ -9,7 +9,7 @@
     "homepage": "https://github.com/Cardinal90/multi-cursor-case-preserve/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Cardinal90/multi-cursor-case-preserve.git"
+        "url": "https://github.com/imbenrabi/multi-cursor-case-preserve-ts-js.git"
     },
     "license": "MIT",
     "version": "1.0.5",
@@ -28,7 +28,10 @@
         "preserve case"
     ],
     "activationEvents": [
-        "*"
+        "onLanguage:javascript",
+        "onLanguage:javascriptreact",
+        "onLanguage:typescript",
+        "onLanguage:typescriptreact"
     ],
     "main": "./src/extension",
     "scripts": {
